@@ -1,5 +1,5 @@
 /*main.css*/
-html, body, section, main, footer, h1, h2, h3, h4, p, div, a{
+html, body, section, main, footer, h1, h2, h3, h4, p, div, a {
   padding: 0;
   border: 0;
   margin: 0;
@@ -7,36 +7,72 @@ html, body, section, main, footer, h1, h2, h3, h4, p, div, a{
   font-size: 100%;
   font-family: Avenir-Roman, Helvetica, sans-serif;
 }
-.container{
-  width: 600px;
+
+.container {
+  max-width: 600px;
   margin: 0 auto;
   margin-top: 40px;
 }
-.content{
+
+.logo.logo--default {
+  display: inline-block;
+}
+
+.logo.logo--hover {
+  display: none;
+}
+
+.logo-container:hover .logo.logo--default {
+ display: none;
+}
+
+.logo-container:hover .logo.logo--hover {
+  display: inline-block;
+}
+
+.content {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-p{
+
+p {
   font-family: Avenir-Roman;
   font-size: 24px;
   color: #000000;
   margin-bottom: 1em;
 }
-span{
+
+span {
   color:#B8E986;
 }
-a{
+
+a {
   text-decoration: none;;
   color: #000000;
 }
-a:hover{
+
+a:hover {
   text-decoration: underline;
   color: #000000;
 }
-footer.contact a {
+
+.button {
+  padding: 10px;
   background: #624AE2;
   border-radius: 3px;
   font-family: Avenir-Roman;
   font-size: 25px;
   color: #FFFFFF;
+  text-decoration: none;
+}
+
+a.button:hover,
+a.button:focus {
+  opacity: 0.8;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer a {
+  padding: 10px 20px;
 }
