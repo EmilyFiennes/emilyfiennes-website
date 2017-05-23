@@ -103,7 +103,6 @@ footer a {
   min-height:100vh;
   overflow: hidden;
   display: flex;
-  border: black 1px dotted;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 25px;
