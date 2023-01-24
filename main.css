@@ -57,13 +57,13 @@ span {
 }
 
 a {
-  text-decoration: none;;
+  text-decoration: underline;
   color: #000000;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #000000;
+  text-decoration: none;
+  color: #624AE2;
 }
 
 .button {
